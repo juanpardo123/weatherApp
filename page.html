@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link type="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="card">
+    <form  action="/" method="post">
+        <label for="city">City name:</label>
+        <input id="city" type="text" name="cityName"/>
+        <button type="submit" name="button">Click here</button>
+    </form>
+    </div>
+</body>
+<style>
+   form{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: nowrap;
+   }
+
+   body{
+    background: linear-gradient(182deg, #ff7418ad, #2edcda75);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   }
+   .card{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    background: #21292652;
+    border-color: #00000017;
+    border-style: solid;
+    backdrop-filter: blur(18px);
+    padding: 3rem;
+    border-radius: 28px;
+    box-shadow: 0 0 20px 0px #0000008c;
+   }
+</style>
+</html>
